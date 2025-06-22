@@ -34,12 +34,14 @@ Pneumonia affects millions globally and requires rapid, accurate diagnosis for o
 ## 2. System Architecture  
 
 ```
-┌─────────────────────┐     ┌────────────────────┐     ┌────────────────────┐     ┌────────────────────┐
-│  React UI  ├────▶ Express.js ├────▶ API Gateway├────▶  Lambda    │
-└────────────────────┘     └────────────────────┘     └────────────────────┘     └────────────────────┘
-                                                            │ SageMaker  │
-                                                            │  Endpoint  │
-                                                            └────────────────────┘
+┌────────────┐     ┌──────────────┐     ┌──────────────┐     ┌────────────┐
+│  React UI  ├───▶│  Express.js   ├───▶│ API Gateway   ├───▶│  Lambda     │
+└────────────┘     └──────────────┘     └──────────────┘     └────┬───────┘
+                                                                 │
+                                                        ┌────────▼────────┐
+                                                        │   SageMaker     │
+                                                        │   Endpoint      │
+                                                        └─────────────────┘
 ```
 
 ### Core Components  
