@@ -4,6 +4,8 @@
 **LinkedIn** [https://www.linkedin.com/in/victor-wei-data/](https://www.linkedin.com/in/victor-wei-data/)
 
 **Watch Demo:** [https://youtu.be/R6fHPS6qVAk](https://youtu.be/R6fHPS6qVAk)
+![image](https://github.com/user-attachments/assets/1460270d-74f6-4201-87e2-007ebe15c53e)
+
 
 ---
 
@@ -18,6 +20,14 @@ This project presents a fully integrated, production-ready AI system that perfor
 - **$0 Cost** during development using AWS Free Tier  
 - **Significant Cost Reduction** compared to cloud-based training while achieving superior accuracy
 
+
+### Core Components  
+- **Frontend**: React  
+- **Backend**: Node.js + Express.js  
+- **Model Hosting**: AWS SageMaker + AWS Lambda
+- **Database**: MongoDB Atlas  
+- **Storage**: Amazon AWS S3  
+- **Security**: AWS IAM, AWS CORS, and AWS VPC Isolation  
 ---
 
 ## 1. Problem & Motivation  
@@ -44,14 +54,6 @@ Pneumonia affects millions globally and requires rapid, accurate diagnosis for o
                                                         │   Endpoint      │
                                                         └─────────────────┘
 ```
-
-### Core Components  
-- **Frontend**: React  
-- **Backend**: Node.js + Express.js  
-- **Model Hosting**: AWS SageMaker + Lambda  
-- **Database**: MongoDB Atlas  
-- **Storage**: Amazon S3  
-- **Security**: IAM, CORS, and VPC Isolation  
 
 ---
 
